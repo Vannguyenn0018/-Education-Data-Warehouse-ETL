@@ -22,7 +22,7 @@
 ## Công cụ & Công nghệ sử dụng
 * **Database Management System:** Microsoft SQL Server.
 * **ETL Tool:** SQL Server Integration Services (SSIS) / Visual Studio.
-* **Data Sources:** Excel (`student_prediction.xlsx`), SQL Scripts.
+* **Data Sources:** Excel (`student_prediction.csv`), SQL Scripts.
 
 ---
 
@@ -30,9 +30,8 @@
 
 ```text
 ├── Education Project/
-│   ├── Education ETL.sln              # Visual Studio Solution cho SSIS
-│   └── Education Project/             # Thư mục gói SSIS Package (.dtsx)
-│       └── Package.dtsx               # Luồng xử lý ETL chính
+│   ├── Education ETL.sln              # Visual Studio Solution cho SSIS      
+│   └── Package.dtsx                   # Luồng xử lý ETL chính
 ├── Education_DW_ETL.bak               # File Backup Database SQL Server
 ├── Script Education_DW.sql            # Script SQL khởi tạo bảng & cấu trúc DW
 ├── student_prediction.xlsx            # File dữ liệu nguồn
