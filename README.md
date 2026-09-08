@@ -10,7 +10,7 @@
 
 ## Kiến trúc Hệ thống & Luồng Dữ liệu (ETL Architecture)
 
-1. **Data Sources (Nguồn dữ liệu):** Dữ liệu thô từ file Excel (`student_prediction.xlsx`) và các cơ sở dữ liệu giao dịch.
+1. **Data Sources (Nguồn dữ liệu):** Dữ liệu thô từ file Excel (`student_prediction.csv`) và các cơ sở dữ liệu giao dịch.
 2. **ETL Process (SSIS):** 
    * Trích xuất (Extract), làm sạch và chuẩn hóa kiểu dữ liệu.
    * Biến đổi (Transform) dữ liệu theo quy chuẩn kinh doanh.
